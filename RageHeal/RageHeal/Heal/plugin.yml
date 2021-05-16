@@ -1,0 +1,17 @@
+name: Heal
+main: Heal\main
+author: RageDevv
+version: 0.0.1
+api: [3.19.0]
+
+commands:
+ heal:
+  description: Command to /heal
+
+permissions:
+ heal.command:
+  default: op
+  description: The permission to /heal
+ heal.other:
+  default: op
+  description: The permission to heal someone else
